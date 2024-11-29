@@ -56,7 +56,7 @@ namespace CarInspectionDemo
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message);
             }
 
             try
@@ -66,7 +66,7 @@ namespace CarInspectionDemo
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message);
             }
 
             try
@@ -76,7 +76,7 @@ namespace CarInspectionDemo
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message);
             }
 
             Console.WriteLine("\n\n\n");
